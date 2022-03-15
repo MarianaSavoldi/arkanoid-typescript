@@ -40,5 +40,5 @@ function gameLoop(
 function startGame(view: CanvasView) {}
 
 // Create a new view
-const view = new CanvasView('#playField')
-view.initStartButton(startGame)
+const view = new CanvasView('#playField');
+view.initStartButton(startGame);
